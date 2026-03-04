@@ -4,7 +4,7 @@ title: Lemon Cake
 categories:
   - Cakes
 featured_image: https://source.unsplash.com/NAN22eh754c/1560x940
-recipe:
+product:
   servings: 12 slices
   prep: 15 minutes
   cook: 65 minutes
@@ -27,7 +27,7 @@ recipe:
     4. Transfer the batter to the prepared pan and bake until a toothpick inserted in the center comes out clean, 65 to 75 minutes. Cool the cake in the pan for 30 minutes, then turn it out onto a wire rack to cool completely.
     5. In a small bowl, whisk together the confectioners’ sugar and 1 of the remaining tablespoons of lemon juice until smooth, adding the remaining lemon juice as necessary to create a thick, but pourable glaze.
 ---
-If you're a sour fan you're going to love this cake. Lemon Cake is one of my favorite year-round desserts, but it is a perfect choice for spring and summer, when everyone tends to crave citrus or light & flavorful recipes
+If you're a sour fan you're going to love this cake. Lemon Cake is one of my favorite year-round desserts, but it is a perfect choice for spring and summer, when everyone tends to crave citrus or light & flavorful breads
 
 ![Cake](https://source.unsplash.com/1HPTYLozDGw)
 

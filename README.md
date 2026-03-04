@@ -8,7 +8,7 @@ A Jekyll-based website for **Weekend Loaf**, a small-batch artisan masala bread 
 ├── index.html           # Home page (displays latest bread posts)
 ├── about.html           # About Weekend Loaf story
 ├── contact.html         # Contact & ordering information
-├── recipes.html         # Browse all breads & products
+├── products.html         # Browse all breads & products
 ├── _posts/              # Bread & product posts (Markdown files)
 ├── _layouts/            # Page templates
 ├── _includes/           # Reusable components

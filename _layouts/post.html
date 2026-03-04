@@ -12,20 +12,20 @@ layout: default
 	</div>
 
 	<ul id="product" class="product-overview">
-		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
-		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
-		<li title="Cook Time">{% include recipe-icon.html icon="cook" %}<span>{{ page.recipe.cook }}</span></li>
+		<li title="Servings">{% include product-icon.html icon="quantity" %}<span>{{ page.product.servings }}</span></li>
+		<li title="Prep Time">{% include product-icon.html icon="time" %}<span>{{ page.product.prep }}</span></li>
+		<li title="Cook Time">{% include product-icon.html icon="cook" %}<span>{{ page.product.cook }}</span></li>
 	</ul>
 
 	<div class="product-contents">
 		<div class="ingredients">
 			<h2>Ingredients</h2>
-			{{ page.recipe.ingredients_markdown | markdownify }}
+			{{ page.product.ingredients_markdown | markdownify }}
 		</div>
 
 		<div class="directions">
 			<h2>Directions</h2>
-			{{ page.recipe.directions_markdown | markdownify }}
+			{{ page.product.directions_markdown | markdownify }}
 		</div>
 	</div>
 
@@ -41,7 +41,7 @@ layout: default
 	<div class="cta">
 		<h2>More delicious breads</h2>
 		<p>This is one of the many fantastic breads available on this blog</p>
-		<div class="button"><a href="{{ site.baseurl }}/recipes">Check out more breads</a></div>
+		<div class="button"><a href="{{ site.baseurl }}/products">Check out more breads</a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>
