@@ -10,15 +10,16 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /images/logo.png
-description: Weekend Loaf.
+description: Weekend Loaf - Artisanal masala breads and spiced snacks with tikka herbs. Fresh, hand-baked products with traditional techniques and clean ingredients.
+keywords: masala bread, tikka herbs, spiced snacks, artisanal baking, fresh breads, Indian snacks
 author:
-  name:
+  name: Weekend Loaf
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Basic Template
+  name: Weekend Loaf
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://github.com/satishkn/WeekendLoaf
 
 # -----
 # Build
