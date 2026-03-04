@@ -1,6 +1,6 @@
 # Weekend Loaf
 
-A Jekyll-based website for **Weekend Loaf**, a small-batch artisan masala bread bakery in Austin, Texas. Hand-crafted loaves with bold spices, fresh ingredients, and weekend traditions.
+A Jekyll-based website for **Weekend Loaf**, a small-batch artisan masala bread bakery in Leander / Austin, Texas. Hand-crafted loaves with bold spices, fresh ingredients, and weekend traditions.
 
 ## Site Structure
 
