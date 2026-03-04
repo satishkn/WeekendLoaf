@@ -1,14 +1,10 @@
 # Treat
 
-Food/baking blog template for Jekyll. Browse through a [live demo](https://spring-bat.cloudvent.net/).
+Food/baking blog template for Jekyll. 
 
-![Treat template screenshot](images/_screenshot.png)
 
-Treat was made by [CloudCannon](http://cloudcannon.com/), the Cloud CMS for Jekyll.
 
-Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Academy](https://learn.cloudcannon.com/).
 
-[![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register#sites/connect/github/CloudCannon/treat-jekyll-template)
 
 ## Features
 
@@ -18,7 +14,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 * Blog with pagination
 * Disqus comments for posts
 * Configurable sidebar
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+* Optimised for editing 
 * RSS/Atom feed
 * SEO tags
 * Google Analytics
@@ -28,7 +24,7 @@ Find more templates, themes and step-by-step Jekyll tutorials at [CloudCannon Ac
 1. Add your site and author details in `_config.yml`.
 2. Add your Google Analytics, Disqus and MailChimp keys to `_config.yml`.
 3. Add your details to `_data/sidebar.yml`
-4. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
+4. Get a workflow going to see your site's output  Jekyll locally).
 
 ## Develop
 
