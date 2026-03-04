@@ -4,7 +4,7 @@ title: Herb & Seed Focaccia
 categories:
   - Breads
 featured_image: /images/hero.jpg
-recipe:
+product:
   servings: 1 loaf
   prep: 16 hours
   cook: 25 minutes

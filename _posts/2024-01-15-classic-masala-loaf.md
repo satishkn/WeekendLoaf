@@ -4,7 +4,7 @@ title: Classic Masala Loaf
 categories:
   - Breads
 featured_image: /images/masala_loaf.jpg
-recipe:
+product:
   servings: 1 loaf
   prep: 18 hours (with overnight proof)
   cook: 35 minutes

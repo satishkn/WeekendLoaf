@@ -4,7 +4,7 @@ title: Spiced Whole Wheat
 categories:
   - Breads
 featured_image: /images/dough.jpg
-recipe:
+product:
   servings: 1 loaf
   prep: 18 hours
   cook: 40 minutes
