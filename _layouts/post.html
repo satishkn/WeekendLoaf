@@ -11,21 +11,10 @@ layout: default
 		{{ content }}
 	</div>
 
-	<ul id="product" class="product-overview">
-		<li title="Servings">{% include product-icon.html icon="quantity" %}<span>{{ page.product.servings }}</span></li>
-		<li title="Prep Time">{% include product-icon.html icon="time" %}<span>{{ page.product.prep }}</span></li>
-		<li title="Cook Time">{% include product-icon.html icon="cook" %}<span>{{ page.product.cook }}</span></li>
-	</ul>
-
 	<div class="product-contents">
 		<div class="ingredients">
 			<h2>Ingredients</h2>
 			{{ page.product.ingredients_markdown | markdownify }}
-		</div>
-
-		<div class="directions">
-			<h2>Directions</h2>
-			{{ page.product.directions_markdown | markdownify }}
 		</div>
 	</div>
 
@@ -39,9 +28,9 @@ layout: default
 	</div>
 
 	<div class="cta">
-		<h2>More delicious breads</h2>
-		<p>This is one of the many fantastic breads available on this blog</p>
-		<div class="button"><a href="{{ site.baseurl }}/products">Check out more breads</a></div>
+		<h2>Our Signature Bread</h2>
+		<p>This is our classic masala loaf, baked fresh every weekend.</p>
+		<div class="button"><a href="{{ site.baseurl }}/products">Check out our bread</a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>

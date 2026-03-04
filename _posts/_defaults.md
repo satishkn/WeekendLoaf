@@ -4,9 +4,5 @@ categories:
 date:
 featured_image:
 product:
-  servings:
-  prep:
-  cook:
   ingredients_markdown:
-  directions_markdown:
 ---
