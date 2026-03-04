@@ -12,7 +12,7 @@
 		display: block;
 	}
 
-	.recipe-overview {
+	.product-overview {
 		padding: 0;
 		margin: 0;
 
@@ -36,7 +36,7 @@
 		}
 	}
 
-	.recipe-contents {
+	.product-contents {
 		@media #{$desktop} {
 			display: flex;
 		}
