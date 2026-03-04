@@ -3,7 +3,7 @@ date: 2026-03-04
 title: Masala Cashew Nuts
 categories:
   - Snacks
-featured_image: /images/cashews.jpg
+featured_image: {{ site.baseurl }}/images/cashews.jpg
 product:
   ingredients_markdown: |-
     * Raw cashews
