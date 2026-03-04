@@ -12,7 +12,7 @@ image_view: true
 		<h2>{{ category[0] }}</h2>
 		<div class="products">
 			{% for product in category[1] %}
-				<div class="product" style="background-image: url('{{ product.featured_image }}')">
+				<div class="product" style="background-image: url('{{ product.featured_image | prepend: site.baseurl }}')">
 					<a href="{{ site.baseurl }}{{ product.url }}"><span>{{ product.title }}</span></a>
 				</div>
 			{% endfor %}
