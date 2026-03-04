@@ -26,13 +26,14 @@ cd WeekendLoaf
 python3 -m http.server 8000
 ```
 
-Then visit `http://localhost:8000/` in your browser. Directly opening `index.html` with `file://` will break the navigation and partials because the leading slash points at your filesystem root.
-- `css/style.css` – extracted stylesheet (original Tailwind utility-based styles).
-- `partials/header.html` & `partials/footer.html` – shared header and footer markup loaded via JavaScript.
-- `images/` – all graphic assets (logos, hero image, product photos, WhatsApp icon).
-- `scripts/split_site.py` – helper script used to regenerate pages from a single-file source.
+Then visit `http://localhost:4000/` in your browser; Jekyll will rebuild automatically as you edit.
 
-> **Note:** pages load the header/footer with `fetch()` at runtime, so ensure the files remain in their relative paths.
+- `css/` – stylesheets (Sass files compiled by Jekyll).
+- `images/` – all graphic assets (logos, hero image, product photos, WhatsApp icon).
+- `_posts/` – Markdown files representing each bread/product.
+- `_layouts/` and `_includes/` contain the templates used by pages and posts.
+
+> **Note:** because this is a Jekyll site, you don't need to worry about manually including headers/footers; they're injected via the layouts.
 
 ## Editing
 
