@@ -1,0 +1,9 @@
+name = "weekendloaf"
+compatibility_date = "2025-09-27"
+observability = { enabled = true }
+
+[build]
+command = "bundle exec jekyll build"
+
+[site]
+bucket = "./_site"
