@@ -17,7 +17,6 @@ vendor/
 # IDE
 .vscode/
 .idea/
-.well-known/
 
 # Logs
 *.log
