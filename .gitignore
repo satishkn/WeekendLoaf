@@ -1,0 +1,25 @@
+# Cloudflare Pages build logs
+weekendloaf.production.*.build.log
+
+# Jekyll build output
+_site/
+
+# Sass cache
+.sass-cache/
+
+# Bundler
+vendor/
+.bundle/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
