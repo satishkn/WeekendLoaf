@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bakery",
+  "compatibility_date": "2025-09-27",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "_site"
+  },
+  "build": {
+    "command": "bundle exec jekyll build"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
