@@ -258,7 +258,7 @@
 .button-google-scholar {
 	--button-text:#000000;
 	--button-background:rgba(255, 255, 255, 0.1);
-	--button-border:1px solid rgba(0, 0, 0, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.3);
 }
 
 /* Hashnode */
@@ -272,7 +272,7 @@
 .button-instagram {
 	--button-text:#000000;
 	--button-background:rgba(255, 255, 255, 0.1);
-	--button-border:1px solid rgba(0, 0, 0, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.3);
 }
 
 .button-instagram .icon {
@@ -531,7 +531,7 @@
 .button-telegram {
 	--button-text:#000000;
 	--button-background:rgba(255, 255, 255, 0.1);
-	--button-border:1px solid rgba(0, 0, 0, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.3);
 }
 
 /* Threads */
@@ -584,7 +584,7 @@
 .button-venmo {
 	--button-text:#000000;
 	--button-background:rgba(255, 255, 255, 0.1);
-	--button-border:1px solid rgba(0, 0, 0, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.3);
 }
 
 .button-venmo .icon {
@@ -647,5 +647,5 @@
 .button-brown {
 	--button-text:#000000;
 	--button-background:rgba(255, 255, 255, 0.1);
-	--button-border:1px solid rgba(0, 0, 0, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.3);
 }
