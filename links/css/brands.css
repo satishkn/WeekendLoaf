@@ -257,8 +257,8 @@
 /* Google Scholar */
 .button-google-scholar {
 	--button-text:#000000;
-	--button-background:#FFFFFF;
-	--button-border:1px solid #212121;
+	--button-background:rgba(255, 255, 255, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Hashnode */
@@ -271,8 +271,8 @@
 /* Instagram */
 .button-instagram {
 	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
+	--button-background:rgba(255, 255, 255, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.1);
 }
 
 .button-instagram .icon {
@@ -530,8 +530,8 @@
 /* Telegram */
 .button-telegram {
 	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
+	--button-background:rgba(255, 255, 255, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* Threads */
@@ -583,8 +583,8 @@
 /* Venmo */
 .button-venmo {
 	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
+	--button-background:rgba(255, 255, 255, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.1);
 }
 
 .button-venmo .icon {
@@ -646,6 +646,6 @@
 /* Custom Brown */
 .button-brown {
 	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
+	--button-background:rgba(255, 255, 255, 0.1);
+	--button-border:1px solid rgba(0, 0, 0, 0.1);
 }
