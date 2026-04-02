@@ -92,6 +92,17 @@
                 </div>
               </a>
 
+              <!-- Online Giveaway Form -->
+              <div id="giveaway-form-container">
+                <a class="button-card button-default" href="javascript:void(0)" onclick="showGiveawayForm()" role="button">
+                  <img class="icon" aria-hidden="true" src="images/icons/generic-website.svg" alt="Form Icon">
+                  <div class="button-content">
+                    <p class="button-title">Online Giveaway Entry</p>
+                    <p class="button-description">Fill out our online form to enter the giveaway</p>
+                  </div>
+                </a>
+              </div>
+
       </div>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
@@ -102,6 +113,30 @@
     </div>
   </div>
 
+  <script>
+    function showGiveawayForm() {
+      const container = document.getElementById('giveaway-form-container');
+      container.innerHTML = `
+        <div class="button-card" style="width: 105%; margin-top: 0;">
+          <div class="button-content" style="padding: 1rem;">
+            <p style="margin-bottom: 1rem; color: inherit; font-size: 0.9rem;">
+              <strong>Note:</strong> If the form asks you to sign in, please contact us to update the form settings to allow anonymous responses.
+            </p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftEAaZMb2yF1yOeWQhBBixj9n0-zC82avxJd5p-VoGZCNkMA/viewform?embedded=true" 
+                    width="100%" 
+                    height="961" 
+                    frameborder="0" 
+                    marginheight="0" 
+                    marginwidth="0"
+                    style="max-width: 640px;"
+                    sandbox="allow-scripts allow-forms allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+              Loading…
+            </iframe>
+          </div>
+        </div>
+      `;
+    }
+  </script>
 </body>
 
 </html>
