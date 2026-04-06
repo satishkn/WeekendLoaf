@@ -20,6 +20,40 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-1KZ110KMY9');
+
+      // Track ALL link clicks in Google Analytics
+      document.addEventListener('DOMContentLoaded', function() {
+        // Get all links on the page
+        const allLinks = document.querySelectorAll('a');
+        
+        allLinks.forEach(function(link) {
+          link.addEventListener('click', function(e) {
+            // Extract link details
+            const linkText = this.querySelector('.button-title') 
+              ? this.querySelector('.button-title').textContent.trim()
+              : this.textContent.trim();
+            
+            const linkUrl = this.getAttribute('href');
+            const isExternal = this.hasAttribute('target') && this.getAttribute('target') === '_blank';
+            
+            // Send event to Google Analytics 4
+            gtag('event', 'link_click', {
+              'link_text': linkText,
+              'link_url': linkUrl,
+              'link_location': 'links_page',
+              'is_external': isExternal
+            });
+            
+            // Optional: Add small delay for internal links to ensure tracking fires
+            if (!isExternal && linkUrl.startsWith('http') === false) {
+              e.preventDefault();
+              setTimeout(function() {
+                window.location = linkUrl;
+              }, 100);
+            }
+          });
+        });
+      });
     </script>
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
